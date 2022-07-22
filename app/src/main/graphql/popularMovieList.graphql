@@ -1,0 +1,11 @@
+query{
+    popularMovies{
+        ok
+        movies{
+            id
+            original_title
+            release_date
+            poster_path
+        }
+    }
+}
