@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.example.movieapplicationgraphql.fragment.PopularMoviesFragment">
+    tools:context="com.example.movieapplicationgraphql.fragment.WatchedMovieFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -19,12 +19,12 @@
             android:layout_height="?actionBarSize"
             android:background="@color/black"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:title="@string/app_name" />
+            app:title="Watched Films" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvPopularMovies"
+        android:id="@+id/rvWatchedMovies"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="5dp"

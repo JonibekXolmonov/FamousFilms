@@ -6,6 +6,11 @@
     app:startDestination="@id/popularMoviesFragment">
 
     <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.movieapplicationgraphql.fragment.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
+    <fragment
         android:id="@+id/popularMoviesFragment"
         android:name="com.example.movieapplicationgraphql.fragment.PopularMoviesFragment"
         android:label="fragment_popular_movies"
@@ -15,8 +20,8 @@
             app:destination="@id/detailsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.example.movieapplicationgraphql.fragment.DetailsFragment"
-        android:label="fragment_details"
-        tools:layout="@layout/fragment_details" />
+        android:id="@+id/watchedMovieFragment"
+        android:name="com.example.movieapplicationgraphql.fragment.WatchedMovieFragment"
+        android:label="fragment_watched_movie"
+        tools:layout="@layout/fragment_watched_movie" />
 </navigation>

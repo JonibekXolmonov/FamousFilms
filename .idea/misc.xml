@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/drawable-v24/bot_nav_background.xml" value="0.1175" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/drawable-v24/ic_home.xml" value="0.1175" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/drawable-v24/ic_search.xml" value="0.1175" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/layout/activity_main.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/layout/fragment_details.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/layout/fragment_main.xml" value="0.15534420289855072" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/layout/fragment_popular_movies.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/layout/fragment_watched_movie.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/layout/item_tv_show.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MovieApplicationGraphQL/app/src/main/res/menu/nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

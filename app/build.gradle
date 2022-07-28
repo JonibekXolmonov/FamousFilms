@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id("com.apollographql.apollo3").version("3.0.0")
+    id "org.jetbrains.kotlin.kapt"
+    id "dagger.hilt.android.plugin"
 }
 
 android {
@@ -63,6 +65,19 @@ dependencies {
     // Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:2.5.0"
     implementation "androidx.navigation:navigation-ui-ktx:2.5.0"
+
+    //Glide
+    implementation "com.github.bumptech.glide:glide:4.13.2"
+    annotationProcessor "com.github.bumptech.glide:compiler:4.13.2"
+
+    // Dagger hilt
+    implementation "com.google.dagger:hilt-android:2.42"
+    kapt "com.google.dagger:hilt-android-compiler:2.42"
+
+    // Room
+    implementation "androidx.room:room-ktx:2.4.2"
+    kapt "androidx.room:room-compiler:2.4.2"
+
 }
 apollo {
     packageName.set("com.example.movieapplicationgraphql")
